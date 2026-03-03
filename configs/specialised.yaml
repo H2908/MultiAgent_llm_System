@@ -1,0 +1,12 @@
+condition: specialised
+model: llama3.1
+backend: ollama
+team_size: 4
+task_ids:
+  - r001
+  - r002
+  - r003
+  - a001
+  - a002
+judge_backend: null
+shared_context: ""

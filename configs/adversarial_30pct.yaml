@@ -1,0 +1,10 @@
+condition: adversarial
+model: llama3.1
+backend: ollama
+team_size: 4
+adversarial_fraction: 0.30
+task_ids:
+  - a001
+  - a002
+judge_backend: null
+shared_context: ""
